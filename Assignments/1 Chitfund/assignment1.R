@@ -30,3 +30,5 @@ sp
 g1<-sp + geom_hline(yintercept=total.contribution, linetype="dashed", color = "red")+geom_text(aes(0,total.contribution,label = total.contribution, vjust = -1))
 g1
 
+install.packages('rmarkdown')
+rmarkdown::render('C:/Users/DELL/Documents/assignment1.R')
